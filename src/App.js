@@ -3,6 +3,7 @@ import JSXSyntax from "./Component/JSXSyntax";
 import ComponentsAndProps from "./Component/ComponentsAndProps";
 import HandlingEvent from "./Component/HandlingEvent";
 import ConditionalReRendring from "./Component/ConditionalReRendring";
+import ListingAndKeys from "./Component/ListingAndKeys";
 
 function App() {
     return (
@@ -16,6 +17,10 @@ function App() {
 
             <ConditionalReRendring />
             <ConditionalReRendring isLoggedIn={true} />
+
+            <h1 style={{textAlign: "center"}}>Listing & Keys</h1>
+
+            <ListingAndKeys />
         </>
     );
 }
