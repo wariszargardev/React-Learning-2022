@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import JSXSyntax from "./Component/JSXSyntax";
+import ComponentsAndProps from "./Component/ComponentsAndProps";
+import HandlingEvent from "./Component/HandlingEvent";
+import ConditionalReRendring from "./Component/ConditionalReRendring";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <JSXSyntax/>
+            <ComponentsAndProps name={"Waris"} email={"wariszargardev@gmail.com"}/>
+            <ComponentsAndProps name={"Ali"} email={"alizargardev@gmail.com"}/>
+            <HandlingEvent />
+
+            <h1 style={{textAlign: "center"}}>Conditional Rendering</h1>
+
+            <ConditionalReRendring />
+            <ConditionalReRendring isLoggedIn={true} />
+        </>
+    );
 }
 
 export default App;
