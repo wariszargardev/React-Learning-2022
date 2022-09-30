@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24966d-98ef-441a-b675-307a1b676c2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/ListingAndKeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/student/SingleStudent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/form/ControlledComponentSetMultipleValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/form/ControlledComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/form/funcrional component/MultipleInputForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/form/funcrional component/SingleInputForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -36,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\React JS\react-learning-2022\src\Component" />
@@ -83,7 +85,8 @@
       <updated>1664423778931</updated>
       <workItem from="1664423780207" duration="3046000" />
       <workItem from="1664516603275" duration="3813000" />
-      <workItem from="1664522312504" duration="5622000" />
+      <workItem from="1664522312504" duration="8026000" />
+      <workItem from="1664556768459" duration="926000" />
     </task>
     <servers />
   </component>
