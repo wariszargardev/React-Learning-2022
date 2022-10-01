@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa24966d-98ef-441a-b675-307a1b676c2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/form/ControlledComponentSetMultipleValue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/form/ControlledComponents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/form/funcrional component/MultipleInputForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/form/funcrional component/SingleInputForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/composition/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/composition/Sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -55,6 +53,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\React JS\react-learning-2022\src\Component\composition" />
       <recent name="E:\React JS\react-learning-2022\src\Component" />
     </key>
   </component>
@@ -87,6 +86,7 @@
       <workItem from="1664516603275" duration="3813000" />
       <workItem from="1664522312504" duration="8026000" />
       <workItem from="1664556768459" duration="926000" />
+      <workItem from="1664590222400" duration="1923000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,8 @@ import ControlledComponents from "./Component/form/ControlledComponents";
 import ControlledComponentSetMultipleValue from "./Component/form/ControlledComponentSetMultipleValue";
 import SingleInputForm from "./Component/form/funcrional component/SingleInputForm";
 import MultipleInputForm from "./Component/form/funcrional component/MultipleInputForm";
+import Sidebar from "./Component/composition/Sidebar";
+import Content from "./Component/composition/Content";
 
 function App() {
     return (
@@ -35,6 +37,17 @@ function App() {
             <h1 style={{textAlign: "center"}}>Form handling with functional component (Single/Multiple) fields</h1>
             <SingleInputForm/>
             <MultipleInputForm/>
+
+
+            <h1 style={{textAlign: "center"}}>Composition</h1>
+
+
+                <Sidebar>
+                        <Content />
+                        <Content />
+                        <Content />
+                        <Content />
+                </Sidebar>
         </>
     );
 }
