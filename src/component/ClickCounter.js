@@ -1,17 +1,11 @@
-import React, { useState} from 'react';
-
-const ClickCounter = () => {
-
-    const [counter, setCounter] = useState(0)
-    const incrementCount = ()=>{
-        setCounter(counter + 1)
-    }
-
+import WithCounter from "./HOC/WithCounter";
+const ClickCounter = (props) => {
     return (
         <div>
-            <button onClick={incrementCount}>Button click {counter} time</button>
+            <p>Data from HOC Component {props.name}</p>
+            <button onClick={props.incrementCount}>Button click {props.counter} time</button>
         </div>
     );
 };
 
-export default ClickCounter;
+export default WithCounter(ClickCounter);

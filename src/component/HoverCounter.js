@@ -1,18 +1,12 @@
-import {useState} from "react";
+import WithCounter from "./HOC/WithCounter";
 
 const HoverCounter = (props) =>{
-
-    const [counter, setCounter] = useState(0)
-    const incrementCount = ()=>{
-        setCounter(counter + 1)
-    }
-
     return(
         <div>
             <p>Data from HOC Component {props.name}</p>
-            <h1 onMouseOver={incrementCount}>Hover {counter} time</h1>
+            <h1 onMouseOver={props.incrementCount}>Hover {props.counter} time</h1>
         </div>
     )
 }
 
-export default HoverCounter
+export default WithCounter(HoverCounter)
