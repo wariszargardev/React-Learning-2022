@@ -6,7 +6,7 @@ import HoverCounter from "./component/HoverCounter";
 function App() {
     return (
         <div className="App">
-            <ClickCounter/>
+            <ClickCounter heading={'Click counter heading'}/>
             <HoverCounter/>
         </div>
     );

@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 const WithCounter = (WrappedComponent) =>{
-    const ComposeComponent = () =>{
+    const ComposeComponent = (props) =>{
 
         const [counter, setCounter] = useState(0)
         const incrementCount = ()=>{
@@ -9,7 +9,13 @@ const WithCounter = (WrappedComponent) =>{
         }
 
         return(
-            <WrappedComponent name={"Muhammad Waris"} counter={counter} incrementCount={incrementCount} />
+            <WrappedComponent
+                name={"Muhammad Waris"}
+                counter={counter}
+                incrementCount={incrementCount}
+                {...props}
+                // If any of component pass extra props then these props must past to it otherwise it will not appear to specific component
+                />
         )
     }
     return ComposeComponent
