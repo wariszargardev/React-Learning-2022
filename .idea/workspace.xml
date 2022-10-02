@@ -4,6 +4,7 @@
     <list default="true" id="369aa4ca-d14a-45b5-8b59-835acebfcc38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/ClickCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ClickCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HOC/WithCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HOC/WithCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/HoverCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HoverCounter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664626595334</updated>
       <workItem from="1664626601056" duration="2105000" />
-      <workItem from="1664688310738" duration="5566000" />
+      <workItem from="1664688310738" duration="5909000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 import {useState} from "react";
 
-const WithCounter = (OriginalComponent) =>{
-    const NewComponent = () =>{
+const WithCounter = (WrappedComponent) =>{
+    const ComposeComponent = () =>{
 
         const [counter, setCounter] = useState(0)
         const incrementCount = ()=>{
@@ -9,9 +9,9 @@ const WithCounter = (OriginalComponent) =>{
         }
 
         return(
-            <OriginalComponent name={"Muhammad Waris"} counter={counter} incrementCount={incrementCount} />
+            <WrappedComponent name={"Muhammad Waris"} counter={counter} incrementCount={incrementCount} />
         )
     }
-    return NewComponent
+    return ComposeComponent
 }
 export default WithCounter
