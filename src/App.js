@@ -3,15 +3,28 @@ import UseStateHooks from "./component/UseStateHooks";
 import UseStateWithObjects from "./component/UseStateWithObjects";
 import UseEffectApiHit from "./component/useEffect/UseEffectApiHit";
 import UseEffectResizing from "./component/useEffect/UseEffectResizing";
+import ComplexFunctionProblem from "./component/useMemo/ComplexFunctionProblem";
+import UseMemoFixComplexProblem from "./component/useMemo/UseMemoFixComplexProblem";
 
 function App() {
     return (
         <div className="App">
+            <h1>Use state hooks</h1>
             <UseStateHooks/>
             <UseStateWithObjects/>
+            <hr/>
+
             <h1>Use Effect</h1>
             <UseEffectApiHit />
             <UseEffectResizing />
+            <hr />
+
+            <h1>Problem without memo</h1>
+            <ComplexFunctionProblem />
+
+            <hr />
+            <h1>Fix problem with memo</h1>
+            <UseMemoFixComplexProblem />
         </div>
     );
 }
