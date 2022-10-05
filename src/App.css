@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -39,5 +41,5 @@
 
 
 hr{
-  margin-top: 25px;
+  width: 100%;
 }

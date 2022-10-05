@@ -7,31 +7,40 @@ import ComplexFunctionProblem from "./component/useMemo/ComplexFunctionProblem";
 import UseMemoFixComplexProblem from "./component/useMemo/UseMemoFixComplexProblem";
 import ComponentRenderCount from "./component/useRef/ComponentRenderCount";
 import InputValueByRef from "./component/useRef/InputValueByRef";
+import UserProvider from "./component/useContext/context/UserProvider";
+import User from "./component/useContext/User";
 
 function App() {
     return (
         <div className="App">
-            <h1>Use Ref render component & focus input</h1>
-            <ComponentRenderCount />
-            <InputValueByRef />
+
+            <h1>Context API</h1>
+            <UserProvider>
+                    <User />
+            </UserProvider>
             <hr/>
 
-            <h1>Use state hooks</h1>
-            <UseStateHooks/>
-            <UseStateWithObjects/>
-            <hr/>
+            {/*<h1>Use Ref render component & focus input</h1>*/}
+            {/*<ComponentRenderCount/>*/}
+            {/*<InputValueByRef/>*/}
+            {/*<hr/>*/}
 
-            <h1>Use Effect</h1>
-            <UseEffectApiHit/>
-            <UseEffectResizing/>
-            <hr/>
+            {/*<h1>Use state hooks</h1>*/}
+            {/*<UseStateHooks/>*/}
+            {/*<UseStateWithObjects/>*/}
+            {/*<hr/>*/}
 
-            <h1>Problem without memo</h1>
-            <ComplexFunctionProblem/>
+            {/*<h1>Use Effect</h1>*/}
+            {/*<UseEffectApiHit/>*/}
+            {/*<UseEffectResizing/>*/}
+            {/*<hr/>*/}
 
-            <hr/>
-            <h1>Fix problem with memo</h1>
-            <UseMemoFixComplexProblem/>
+            {/*<h1>Problem without memo</h1>*/}
+            {/*<ComplexFunctionProblem/>*/}
+
+            {/*<hr/>*/}
+            {/*<h1>Fix problem with memo</h1>*/}
+            {/*<UseMemoFixComplexProblem/>*/}
         </div>
     );
 }
