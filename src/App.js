@@ -9,16 +9,24 @@ import ComponentRenderCount from "./component/useRef/ComponentRenderCount";
 import InputValueByRef from "./component/useRef/InputValueByRef";
 import UserProvider from "./component/useContext/context/UserProvider";
 import User from "./component/useContext/User";
+import UseCallBackProblem from "./component/useCallback/problem/UseCallBackProblem";
+import UseCallBackProblemSolve from "./component/useCallback/solve/UseCallBackProblemSolve";
 
 function App() {
     return (
         <div className="App">
 
-            <h1>Context API</h1>
-            <UserProvider>
-                    <User />
-            </UserProvider>
-            <hr/>
+            <h1>Use callback problem</h1>
+            <UseCallBackProblem />
+
+            <h1>Use callback problem solve</h1>
+            <UseCallBackProblemSolve />
+
+            {/*<h1>Context API</h1>*/}
+            {/*<UserProvider>*/}
+            {/* <User />*/}
+            {/*</UserProvider>*/}
+            {/*<hr/>*/}
 
             {/*<h1>Use Ref render component & focus input</h1>*/}
             {/*<ComponentRenderCount/>*/}
