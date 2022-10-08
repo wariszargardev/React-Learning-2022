@@ -11,17 +11,26 @@ import UserProvider from "./component/useContext/context/UserProvider";
 import User from "./component/useContext/User";
 import UseCallBackProblem from "./component/useCallback/problem/UseCallBackProblem";
 import UseCallBackProblemSolve from "./component/useCallback/solve/UseCallBackProblemSolve";
+import UserLists from "./component/UserLists";
+import UserProfile from "./component/UserProfile";
 
 function App() {
     return (
         <div className="App">
 
-            <h1>Use callback problem</h1>
-            <UseCallBackProblem />
+            <h1>Custom hooks</h1>
+            <UserProfile />
+            <UserLists />
+            <hr />
 
-            <h1>Use callback problem solve</h1>
-            <UseCallBackProblemSolve />
 
+            {/*<h1>Use callback problem</h1>*/}
+            {/*<UseCallBackProblem />*/}
+
+            {/*<h1>Use callback problem solve</h1>*/}
+            {/*<UseCallBackProblemSolve />*/}
+
+            {/*<hr />*/}
             {/*<h1>Context API</h1>*/}
             {/*<UserProvider>*/}
             {/* <User />*/}
