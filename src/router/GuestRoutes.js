@@ -4,11 +4,13 @@ import Home from "../Component/Home";
 import About from "../Component/About";
 import Contact from "../Component/Contact";
 import Post from "../Component/Post";
+import NotFound from "../Component/NotFound";
 
 const GuestRouter = createBrowserRouter([
     {
         path: "/",
         element: <Home />,
+        errorElement: <NotFound />
     },
     {
         path: "/about",
